@@ -1,0 +1,184 @@
+{
+  "rock": [
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "yearReleased": 1975,
+      "duration": "6 minutes, 2 seconds"
+    },
+    {
+      "name": "Living on a Prayer",
+      "artist": "Bon Jovi",
+      "yearReleased": 1986,
+      "duration": "4 minutes, 11 seconds"
+    },
+    {
+      "name": "With or Without You",
+      "artist": "U2",
+      "yearReleased": 1987,
+      "duration": "4 minutes, 56 seconds"
+    },
+    {
+      "name": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "yearReleased": 1971,
+      "duration": "8 minutes, 2 seconds"
+    },
+    {
+      "name": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "yearReleased": 1975,
+      "duration": "5 minutes, 40 seconds"
+    },
+    {
+      "name": "Comfortably Numb",
+      "artist": "Pink Floyd",
+      "yearReleased": 1979,
+      "duration": "6 minutes, 19 seconds"
+    },
+    {
+      "name": "November Rain",
+      "artist": "Guns N' Roses",
+      "yearReleased": 1991,
+      "duration": "8 minutes, 57 seconds"
+    },
+    {
+      "name": "Hotel California",
+      "artist": "Eagles",
+      "yearReleased": 1976,
+      "duration": "6 minutes, 30 seconds"
+    }
+  ],
+  "pop": [
+    {
+      "name": "Roar",
+      "artist": "Katy Perry",
+      "yearReleased": 2013,
+      "duration": "3 minutes, 42 seconds"
+    },
+    {
+      "name": "Bad Romance",
+      "artist": "Lady Gaga",
+      "yearReleased": 2008,
+      "duration": "4 minutes, 54 seconds"
+    },
+    {
+      "name": "Mamma Mia",
+      "artist": "Abba",
+      "yearReleased": 1975,
+      "duration": "3 minutes, 35 seconds"
+    },
+    {
+      "name": "Does Your Mother Know",
+      "artist": "Abba",
+      "yearReleased": 1979,
+      "duration": "3 minutes, 10 seconds"
+    },
+    {
+      "name": "Blank Space",
+      "artist": "Taylor Swift",
+      "yearReleased": 2014,
+      "duration": "3 minutes, 52 seconds"
+    },
+    {
+      "name": "Price Tag",
+      "artist": "Jessie J",
+      "yearReleased": 2011,
+      "duration": "3 minutes, 41 seconds"
+    }
+  ],
+  "classical": [
+    {
+      "name": "Piano Sonata No. 5",
+      "artist": "Wolfgang Amadeus Mozart",
+      "yearReleased": 1774,
+      "duration": "14 minutes"
+    },
+    {
+      "name": "Piano Concerto No. 5",
+      "artist": "Ludwig Van Beethoven",
+      "yearReleased": 1810,
+      "duration": "40 minutes"
+    },
+    {
+      "name": "Eine Kleine Nachtmusik",
+      "artist": "Wolfgang Amadeus Mozart",
+      "yearReleased": 1787,
+      "duration": "63 minutes"
+    },
+    {
+      "name": "The Barber of Seville",
+      "artist": "Gioachino Rossini",
+      "yearReleased": 1816,
+      "duration": "185 minutes"
+    },
+    {
+      "name": "Don Giovanni",
+      "artist": "Wolfgang Amadeus Mozart",
+      "yearReleased": 1787,
+      "duration": "166 minutes"
+    },
+    {
+      "name": "I Puritani",
+      "artist": "Vincenzo Bellini",
+      "yearReleased": 1834,
+      "duration": "215 minutes"
+    },
+    {
+      "name": "Piano Concerto No. 2",
+      "artist": "Sergei Rachmaninoff",
+      "yearReleased": 1901,
+      "duration": "32 minutes"
+    },
+    {
+      "name": "Symphony No. 41",
+      "artist": "Wolfgang Amadeus Mozart",
+      "yearReleased": 1788,
+      "duration": "33 minutes"
+    }
+  ],
+  "rap": [
+    {
+      "name": "Old Town Road",
+      "artist": "Lil Nas X",
+      "yearReleased": 2019,
+      "duration": "1 minute, 53 seconds"
+    },
+    {
+      "name": "Love the Way you Lie",
+      "artist": "Eminem",
+      "yearReleased": 2010,
+      "duration": "4 minutes, 56 seconds"
+    },
+    {
+      "name": "Club Can't Handle Me",
+      "artist": "Flo Rida",
+      "yearReleased": 2010,
+      "duration": "4 minutes, 5 seconds"
+    },
+    {
+      "name": "Feel This Moment",
+      "artist": "Pitbull",
+      "yearReleased": 2013,
+      "duration": "3 minutes, 49 seconds"
+    },
+    {
+      "name": "Lose Yourself",
+      "artist": "Eminem",
+      "yearReleased": 2002,
+      "duration": "5 minutes, 20 seconds"
+    },
+    {
+      "name": "Hotline Bling",
+      "artist": "Drake",
+      "yearReleased": 2015,
+      "duration": "4 minutes, 27 seconds"
+    },
+    {
+      "name": "Man's Not Hot",
+      "artist": "Big Shaq",
+      "yearReleased": 2017,
+      "duration": "3 minutes, 6 seconds"
+    }
+  ]
+}

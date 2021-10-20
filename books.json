@@ -1,0 +1,136 @@
+{
+  "classic": [
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoyevsky",
+      "yearPublished": 1866,
+      "numOfPages": 576,
+      "blurb": "This classic novel is centered upon a poor law student's realisation that logic and human nature may be more incompatible than we assume."
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "yearPublished": 1851,
+      "numOfPages": 378,
+      "blurb": "This classic novel is centered upon Captain Ahab and his obsessive mission to exact revenge on Moby Dick."
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "yearPublished": 1869,
+      "numOfPages": 1225,
+      "blurb": "This classic novel focuses on the impact of the French invasion of Russia through the eyes of five aristocratic families."
+    },
+    {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "yearPublished": 1937,
+      "numOfPages": 107,
+      "blurb": "This classic novel follows the tragic lives of two friends who find work on a Californian ranch at the height of the Great Depression."
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "yearPublished": 1954,
+      "numOfPages": 224,
+      "blurb": "This classic novel follows the disturbing story of a group of boys who become stranded on an island and attempt to govern themselves."
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "yearPublished": 1960,
+      "numOfPages": 281,
+      "blurb": "This classic novel is centered upon the relentless conviction of a lawyer to his client, who has been falsely accused of rape."
+    }
+  ],
+  "mystery": [
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "yearPublished": 2005,
+      "numOfPages": 544,
+      "blurb": "The disappearance of a wealthy heiress leads her distressed uncle to hire a disgraced journalist to investigate."
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "author": "Sir Arthur Conan Doyle",
+      "yearPublished": 1902,
+      "numOfPages": 248,
+      "blurb": "Sherlock Holmes investigates an old legend that tells of how each heir of the wealthy Baskerville family is hunted and eventually murdered by a demonic hound."
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "yearPublished": 1934,
+      "numOfPages": 256,
+      "blurb": "The world's greatest detective, is forced into a race against time to solve a sudden murder aboard a train."
+    }
+  ],
+  "romance": [
+    {
+      "title": "Fifty Shades of Grey",
+      "author": "E. L. James",
+      "yearPublished": 2011,
+      "numOfPages": 514,
+      "blurb": "When a college senior covers an interview for her sick friend, little does she realise that she is about to be sucked into a relationship that is anything but conventional."
+    },
+    {
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "yearPublished": 1996,
+      "numOfPages": 214,
+      "blurb": "Set in 1940s America, Noah and Allie are deeply in love, yet circumstances do not allow them to be together. Upon returning from war and with Allie on the brink of marriage to another man, they realise that they still love each other."
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "yearPublished": 2012,
+      "numOfPages": 313,
+      "blurb": "Two teenagers suffering from cancer embark on a journey of love, sadness and romance"
+    },
+    {
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "yearPublished": 2012,
+      "numOfPages": 480,
+      "blurb": "A young woman who feels overshadowed by her sister finds work as the caretaker of a once-active quadriplegic man. Together, they grow closer and change each other's lives for the better."
+    },
+    {
+      "title": "The Hating Game",
+      "author": "Sally Thorne",
+      "yearPublished": 2016,
+      "numOfPages": 416,
+      "blurb": "Two colleagues who both despise each other, and are vying for a promotion, begin to realise that perhaps they may have misjudged each other."
+    }
+  ],
+  "scifi": [
+    {
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "yearPublished": 1985,
+      "numOfPages": 324,
+      "blurb": "Set in the future, immensely talented children are identified from young and trained in the art of warfare to defend Earth from an alien invasion."
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "yearPublished": 1932,
+      "numOfPages": 311,
+      "blurb": "Set in the future, a single man challenges a new yet dystopian world order whereby humans are organised into an intelligence-based hierarchy."
+    },
+    {
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "yearPublished": 2011,
+      "numOfPages": 369,
+      "blurb": "A single astronaught, believed to have perished in a massive storm, is left on Mars by his crew. We follow his journey as he uses every ounce of his resourcefulness to try and survive."
+    },
+    {
+      "title": "The War of the Worlds",
+      "author": "H. G. Wells",
+      "yearPublished": 1898,
+      "numOfPages": 287,
+      "blurb": "Told from the perspective of an unnamed protagonist and his brother, we hear of the events leading up to, as well as following from, a Martian invasion of Earth."
+    }
+  ]
+}

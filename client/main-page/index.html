@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main-page/styles.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/aa03b46e77.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/book.png"/>
+
+    <title>SparkLibrary</title>
+
+  </head>
+
+  <body>
+    
+    <!-- NEW SECTION: TITLE SECTION -->
+    <section class="coloured-section" id="title">
+
+        <div class="container-fluid">
+
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            
+            <!-- Left-most icon - company name -->
+            <a class="navbar-brand" href="/">SparkLibrary</a>
+    
+            <!-- Hamburger drop-down button when screen gets to small -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            <!-- Navbar Items (horizontal) -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto">
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interact">Interact</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/signup">Email</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/login">Login</a>
+                    </li>
+        
+                </ul>
+    
+            </div>
+    
+          </nav>
+    
+          <!-- Title Text -->
+      
+          <div class="row">
+
+            <div class="col-lg">
+              <h1 class="big-heading">A Digital Library of Books and Music</h1>
+
+              <a type="button" class="btn btn-lg btn-success start-btn" href="#interact">Let Me In!</a>
+              
+            </div>
+
+          </div>
+
+        </div>
+    
+      </section>
+
+      <!-- NEW SECTION: INTERACTION OPTIONS -->
+    
+      <section class="coloured-section" id="interact">
+
+        <!-- Interaction Options Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+
+                <!-- Browse Books, Auto Move 5 seconds -->
+                <div class="carousel-item active container-fluid" data-bs-interval="5000">
+
+                  <h2 class="interaction-text">Browse Existing Books</h2>
+
+                  <div class="dropdown">
+                    <button class="btn btn-danger dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Select Genre
+                    </button>
+    
+                    <!-- Select book genre dropdown -->
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item book-genre-option">Classic</a></li>
+                      <li><a class="dropdown-item book-genre-option">Mystery</a></li>
+                      <li><a class="dropdown-item book-genre-option">Romance</a></li>
+                      <li><a class="dropdown-item book-genre-option">Scifi</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+
+                <!-- Browse Music, Auto Move 5 seconds -->
+                <div class="carousel-item container-fluid" data-bs-interval="5000">
+
+                    <h2 class="interaction-text">Browse Existing Music</h2>
+
+                    <div class="dropdown">
+                      <button class="btn btn-danger dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                      Select Genre
+                      </button>
+      
+                      <!-- Select music genre dropdown -->
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item music-genre-option">Rock</a></li>
+                        <li><a class="dropdown-item music-genre-option">Pop</a></li>
+                        <li><a class="dropdown-item music-genre-option">Classical</a></li>
+                        <li><a class="dropdown-item music-genre-option">Rap</a></li>
+                      </ul>
+                    </div>
+                    
+                </div>
+
+                <!-- Add Books, Auto Move 5 seconds -->
+                <div class="carousel-item container-fluid" data-bs-interval="5000">
+
+                  <h2 class="interaction-text">Add a Book to the Library</h2>
+
+                  <a type="button" class="btn btn-lg btn-danger interaction-btn" href="#book-form">Add Book</a>
+
+              </div>
+
+              <!-- Add Music, Auto Move 5 seconds -->
+              <div class="carousel-item container-fluid" data-bs-interval="5000">
+
+                <h2 class="interaction-text">Add Music to the Library</h2>
+
+                <a type="button" class="btn btn-lg btn-danger interaction-btn" href="#music-form">Add Music</a>
+
+            </div>
+
+            </div>
+
+            <!-- Previous Slide Button For Manual Toggling -->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+
+            <!-- Next Slide Button For Manual Toggling -->
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+
+        </div>
+    
+      </section>
+    
+    
+      <!-- NEW SECTION: LIBRARY SHELVES -->
+    
+      <section class="white-section hidden-element" id="shelf">
+
+        <div class="container-fluid">
+
+            <!-- All Books -->
+            <div class="row book-shelf hidden-element">
+                
+              <h2 class="section-heading">Book Shelf</h2>
+
+            </div>
+
+            <!-- All Music -->
+            <div class="row music-shelf hidden-element">
+
+              <h2 class="section-heading">Music Shelf</h2>
+
+            </div>
+
+        </div>
+
+      </section>
+
+      <!-- NEW SECTION: ADD BOOK/MUSIC ENTITY TO LIBRARY -->
+    
+      <section class="coloured-section" id="add-entity">
+    
+        <div class="container-fluid">
+
+          <hr class="interaction-form-divider">
+
+          <!-- Add book part -->
+          <h2 class="section-heading" id="book-form">Add Book</h2>
+          
+          <!-- Form to add a book -->
+          <form action="/addbook" method="POST" onsubmit="alert('Adding to library...');">
+
+            <div class="form-row">
+
+              <!-- Drop down menu to add book genre -->
+              <div class="form-group">
+                <label for="inputBookGenre">Genre</label>
+                <select id="inputBookGenre" class="form-control" name="bookGenre" required>
+                  <option selected>Choose...</option>
+                  <option>Classic</option>
+                  <option>Mystery</option>
+                  <option>Romance</option>
+                  <option>Scifi</option>
+                </select>
+              </div>
+
+              <!-- Text box to add book title -->
+              <div class="form-group">
+                <label for="inputBookTitle">Book Title</label>
+                <input type="text" class="form-control" id="inputBookTitle" placeholder="Title" name="bookTitle" required>
+              </div>
+
+              <!-- Text box to add book author -->
+              <div class="form-group">
+                <label for="inputBookAuthor">Book Author</label>
+                <input type="text" class="form-control" id="inputBookAuthor" placeholder="Author" name="bookAuthor" required>
+              </div>
+
+            </div>
+
+            <!-- Text box to add the year the book was published -->
+            <div class="form-group">
+              <label for="inputYearPublished">Year Published</label>
+              <input type="number" class="form-control" id="inputYearPublished" placeholder="2021" name="bookYearPublished" required>
+            </div>
+
+            <!-- Text box to add how many pages the book has -->
+            <div class="form-group">
+              <label for="inputNumOfPages">Number of Pages</label>
+              <input type="number" class="form-control" id="inputNumOfPages" placeholder="0" name="bookNumOfPages" required>
+            </div>
+
+            <div class="form-row">
+
+              <!-- Text box to add a short blurb for the book -->
+              <div class="form-group">
+                <label for="inputBookBlurb">Blurb</label>
+                <textarea name="bookBlurb" class="form-control" id="inputBookBlurb" cols="30" rows="5" placeholder="The focus of this book..." required></textarea>
+              </div>
+
+            </div>
+
+            <!-- Submit button that will POST the data -->
+            <button type="submit" class="btn btn-lg btn-primary entity-submit-button">Add to Library</button>
+
+          </form>
+
+          <hr>
+
+          <!-- Add Music Part -->
+          <h2 class="section-heading" id="music-form">Add Music</h2>
+          
+          <!-- Form to add music -->
+          <form action="/addmusic" method="POST" onsubmit="alert('Adding to library...');">
+
+            <div class="form-row">
+
+              <!-- Drop down menu to add music genre -->
+              <div class="form-group">
+                <label for="inputMusicGenre">Genre</label>
+                <select id="inputMusicGenre" class="form-control" name="songGenre" required>
+                  <option selected>Choose...</option>
+                  <option>Rock</option>
+                  <option>Pop</option>
+                  <option>Classical</option>
+                  <option>Rap</option>
+                </select>
+              </div>
+
+              <!-- Text box to add song name -->
+              <div class="form-group">
+                <label for="inputSongName">Song Name</label>
+                <input type="text" class="form-control" id="inputSongName" placeholder="Name" name="songName" required>
+              </div>
+
+              <!-- Text box to add song artist -->
+              <div class="form-group">
+                <label for="inputSongArtist">Song Artist</label>
+                <input type="text" class="form-control" id="inputSongArtist" placeholder="Artist" name="songArtist" required>
+              </div>
+
+            </div>
+
+            <!-- Text box to add the year the song was released -->
+            <div class="form-group">
+              <label for="inputYearReleased">Year Released</label>
+              <input type="number" class="form-control" id="inputYearReleased" placeholder="2021" name="songYearReleased" required>
+            </div>
+
+            <!-- Text box to add how long the song is -->
+            <div class="form-group">
+              <label for="inputSongLength">Song Length</label>
+              <input type="text" class="form-control" id="inputSongLength" placeholder="x minutes, y seconds" name="songDuration" required>
+            </div>
+
+            <!-- Submit button that will POST the data -->
+            <button type="submit" class="btn btn-lg btn-success entity-submit-button">Add to Library</button>
+
+          </form>
+
+        </div>
+    
+      </section>
+    
+      <!-- NEW SECTION: EMAIL SIGN UP FORM -->
+    
+      <section class="white-section" id="email-sign-up">
+    
+        <h2 class="section-heading">Weekly Email Newsletter</h2>
+
+        <!-- Email Sign up Row -->
+        <div class="row">
+
+            <!-- Email Sign Up Column -->
+            <div class="col email-column">
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3 class="email-title">Subscribe Now</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="email-text">Free</h2>
+                        <p>Latest Promotions</p>
+                        <p>Lucky Draws</p>
+                        <p>Library Sharing</p>
+                        <p>Upcoming Changes</p>
+                        <a type="button" class="btn btn-lg btn-dark w-100 sign-up-button" href="/signup">Sign Up</a>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    
+      </section>
+    
+      <!-- FINAL SECTION: FOOTER -->
+    
+      <footer class="coloured-section" id="footer">
+
+        <div class="container-fluid">
+
+            <!-- Footer Social Icons -->
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
+            <i class="fab fa-instagram social-icon"></i>
+            <i class="fas fa-envelope social-icon"></i>
+            <p>© Copyright 2021 SparkLibrary</p>
+
+        </div>
+    
+      </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <!-- jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="main-page/index.js"></script>
+
+  </body>
+
+</html>
