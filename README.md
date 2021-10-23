@@ -18,7 +18,7 @@
   
 4\. Run the following command to start a server on Port 3000:
 
-  npm start
+  	npm start
   
 5\. Open up your internet browser and go to:
 
